@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StatistiqueComponent implements OnInit {
 
+  statistique = "1300";
+  statistique2 = "1300";
   constructor() { }
 
   ngOnInit(): void {
