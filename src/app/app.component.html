@@ -1,4 +1,15 @@
 <app-statistique></app-statistique>
 <app-statistique></app-statistique>
 
-
+<div style="text-align:center">
+  <h1 >
+  Bienvenue a mon app
+  </h1>
+  </div>
+  <div *ngFor = 'let mesposts of mesDonnees' style="text-align:center">
+  <ul>
+  <li style="list-style: none"> <strong>ID: </strong> {{mesposts.id}} </li>
+  <li style="list-style: none"> <strong>Body: </strong>{{mesposts.body}} </li>
+  <li style="list-style: none"> <strong> titre : </strong>{{mesposts.title}}</li>
+  </ul>
+  </div>
